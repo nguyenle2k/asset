@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Slick Slider with Lazy Loading</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="product-slider">
+        <div class="items">
+            <div class="img-item">
+                <img src="./img/L1-1.png" alt="">
+            </div>
+            <div class="text-item">
+                <h2>Lorem ipsum dolor sit</h2>
+                <p>Crème Brûlée au Chocolat</p>
+                <span>6€</span>
+            </div>
+            <div class="icon-item">
+                <button><i class="bi bi-heart"></i></button> 
+                <button><i class="bi bi-cart-plus"></i></i></button>
+            </div>
+        </div>
+
+        <div class="items">
+            <div class="img-item">
+                <img src="./img/L1-2.png" alt="">
+            </div>
+            <div class="text-item">
+                <h2>Lorem ipsum dolor sit</h2>
+                <p>Crème Brûlée au Chocolat</p>
+                <span>6€</span>
+            </div>
+            <div class="icon-item">
+                <button><i class="bi bi-heart"></i></button> 
+                <button><i class="bi bi-cart-plus"></i></i></button>
+            </div>
+        </div>
+
+        <div class="items">
+            <div class="img-item">
+                <img src="./img/L1-3.png" alt="">
+            </div>
+            <div class="text-item">
+                <h2>Lorem ipsum dolor sit</h2>
+                <p>Crème Brûlée au Chocolat</p>
+                <span>6€</span>
+            </div>
+            <div class="icon-item">
+                <button><i class="bi bi-heart"></i></button> 
+                <button><i class="bi bi-cart-plus"></i></i></button>
+            </div>
+        </div>
+
+        <div class="items">
+            <div class="img-item">
+                <img src="./img/L1-4.png" alt="">
+            </div>
+            <div class="text-item">
+                <h2>Lorem ipsum dolor sit</h2>
+                <p>Crème Brûlée au Chocolat</p>
+                <span>6€</span>
+            </div>
+            <div class="icon-item">
+                <button><i class="bi bi-heart"></i></button> 
+                <button><i class="bi bi-cart-plus"></i></i></button>
+            </div>
+        </div>
+
+        <div class="items">
+            <div class="img-item">
+                <img src="./img/L1-5.png" alt="">
+            </div>
+            <div class="text-item">
+                <h2>Lorem ipsum dolor sit</h2>
+                <p>Crème Brûlée au Chocolat</p>
+                <span>6€</span>
+            </div>
+            <div class="icon-item">
+                <button><i class="bi bi-heart"></i></button> 
+                <button><i class="bi bi-cart-plus"></i></i></button>
+            </div>
+        </div>
+
+        <div class="items">
+            <div class="img-item">
+                <img src="./img/L2-1.png" alt="">
+            </div>
+            <div class="text-item">
+                <h2>Lorem ipsum dolor sit</h2>
+                <p>Crème Brûlée au Chocolat</p>
+                <span>6€</span>
+            </div>
+            <div class="icon-item">
+                <button><i class="bi bi-heart"></i></button> 
+                <button><i class="bi bi-cart-plus"></i></i></button>
+            </div>
+        </div>
+
+        <div class="items">
+            <div class="img-item">
+                <img src="./img/L2-2.png" alt="">
+            </div>
+            <div class="text-item">
+                <h2>Lorem ipsum dolor sit</h2>
+                <p>Crème Brûlée au Chocolat</p>
+                <span>6€</span>
+            </div>
+            <div class="icon-item">
+                <button><i class="bi bi-heart"></i></button> 
+                <button><i class="bi bi-cart-plus"></i></i></button>
+            </div>
+        </div>
+
+        <div class="items">
+            <div class="img-item">
+                <img src="./img/L2-3.png" alt="">
+            </div>
+            <div class="text-item">
+                <h2>Lorem ipsum dolor sit</h2>
+                <p>Crème Brûlée au Chocolat</p>
+                <span>6€</span>
+            </div>
+            <div class="icon-item">
+                <button><i class="bi bi-heart"></i></button> 
+                <button><i class="bi bi-cart-plus"></i></i></button>
+            </div>
+        </div>
+
+        <div class="items">
+            <div class="img-item">
+                <img src="./img/L2-4.png" alt="">
+            </div>
+            <div class="text-item">
+                <h2>Lorem ipsum dolor sit</h2>
+                <p>Crème Brûlée au Chocolat</p>
+                <span>6€</span>
+            </div>
+            <div class="icon-item">
+                <button><i class="bi bi-heart"></i></button> 
+                <button><i class="bi bi-cart-plus"></i></i></button>
+            </div>
+        </div>
+
+        <div class="items">
+            <div class="img-item">
+                <img src="./img/L2-5.png" alt="">
+            </div>
+            <div class="text-item">
+                <h2>Lorem ipsum dolor sit</h2>
+                <p>Crème Brûlée au Chocolat</p>
+                <span>6€</span>
+            </div>
+            <div class="icon-item">
+                <button><i class="bi bi-heart"></i></button> 
+                <button><i class="bi bi-cart-plus"></i></i></button>
+            </div>
+        </div>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.product-slider').slick({
+        lazyLoad: 'ondemand',
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 5,
+        adaptiveHeight: true
+      });
+    });
+  </script>
+</body>
+</html>

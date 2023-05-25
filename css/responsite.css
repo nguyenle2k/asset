@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1440px) {
+	
+}
+@media only screen and (max-width: 1366px) {
+	
+}
+@media only screen and (max-width: 1280px) {
+	
+}
+@media only screen and (max-width: 1024px) {
+	.img-intro .img1{
+        width:45%;
+    
+    }
+    .img-intro .img2{
+        width: 45%;
+    }
+    .banner-product{
+        margin-top: unset;
+        margin-bottom: unset;
+    }
+    #front-gallery {
+        margin-top: unset;
+    }
+    .title-section {
+        padding-top:20px;
+        padding-bottom: 30px;
+    }
+    .slider-news > :first-child {
+        position: absolute;
+        left: -3%;
+        bottom: 40%;
+        height: 100px;
+    }
+}
+@media only screen and (max-width: 991px) {
+	
+}
+@media only screen and (max-width: 768px) {
+	
+}
+@media only screen and (max-width: 601px) {
+	
+}
+@media only screen and (max-width: 480px) {
+	
+}
+@media only screen and (max-width: 414px) {
+	
+}
+@media only screen and (max-width: 375px) {
+	
+}
+@media only screen and (max-width: 320px) {
+	
+}
